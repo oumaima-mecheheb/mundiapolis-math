@@ -14,4 +14,5 @@ def mat_mul(mat1, mat2):
                     v += mat1[x][z] * mat2[z][y]
                 rslt.append(v)
             mat.append(rslt)
-    return mat  
+        for i in mat:
+            return mat
