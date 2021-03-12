@@ -4,5 +4,4 @@ def matrix_shape(matrix):
     if (type_matrix != list):
         return [len(matrix)]
     else :
-        shape = [len(matrix)] + matrix_shape(matrix[0])
-        return shape
+        return [len(matrix)] + matrix_shape(matrix[0])
