@@ -1,8 +1,5 @@
 #!/usr/bin/env python3
 
-import numpy as np
-import time
-
 
 def shape(matrix):
     shape = [len(matrix)]
