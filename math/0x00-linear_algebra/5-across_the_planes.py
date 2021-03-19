@@ -6,6 +6,7 @@ def add_matrices2D(mat1, mat2):
         return None
     else:
         sum = [[mat1[j][i]+mat2[j][i] 
-              for i in range(len(mat1[0]))] for j in range(len(mat1))]
+              for i in range(len(mat1[0]))] 
+              for j in range(len(mat1))]
         for count in sum:
             return sum
