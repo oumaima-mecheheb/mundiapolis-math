@@ -1,4 +1,7 @@
 #!/usr/bin/env python3
+'''
+Calculates the sum of i to the power of 2 from i equals 1 to n.
+'''
 
 
 def summation_i_squared(n):
