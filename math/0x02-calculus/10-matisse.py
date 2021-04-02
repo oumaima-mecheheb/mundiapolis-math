@@ -22,9 +22,3 @@ def poly_derivative(poly):
         return [0]
     else:
         return derivate
-
-
-poly_derivative = __import__('10-matisse').poly_derivative
-
-poly = [5, 3, 0, 1]
-print(poly_derivative(poly))
